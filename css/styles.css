@@ -1,0 +1,103 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  background-color: #eee
+}
+
+.header {
+  text-align: center;
+  padding: 10px;
+}
+
+.header h1 {
+  font-size: 54px; 
+  text-shadow: 1px 1px 2px #082b34;
+}
+
+.container{
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.column{
+  width: 33.33%;
+}
+
+div.polaroid{
+  display: flexbox;
+  margin: auto;
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.2), 0 16px 30px 0 rgba(0, 0, 0, 0.19);
+  
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+img{
+  width: 100%;
+  filter: grayscale(75%) 
+}
+
+.skills {
+  width: 100%;
+  text-align: center;
+}
+
+.skills h2{
+  font-size: 48px;
+  margin: 0;
+}
+  
+.skills ol {
+  color: #ccc;
+  list-style-type: none;
+}
+  
+.skills ol li {
+  position: relative;
+  font: bold italic 30px Helvetica, Verdana, sans-serif;
+}
+  
+.skills li p {
+  margin: 5px;
+  color: #555;
+}
+
+.footer {
+  width: 100%;
+  color: white;
+  background-color: #000;
+  padding: 1px;
+}
+
+.footer li{
+  display: inline;
+  padding-right: 10px;
+}
+
+.footer a{
+  color: white;
+}
+
+.footer img{
+  width: 32px;
+  height: 32px;
+}
+
+
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+
